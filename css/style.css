@@ -1,0 +1,23 @@
+h1 {
+    color: darkgreen;
+    background-color: darkkhaki;
+    align-items: stretch;
+}
+.middle {
+    display: flex;
+    align-items: stretch;
+}
+menu {
+    background-color: darkgoldenrod;
+    min-height: 400px;
+}
+menu > li {
+    list-style: none;
+    padding: 0%;
+    text-align: left;
+}
+content {
+    background-color: rgb(255, 229, 164);
+    min-height: 400px;
+    max-width: 100%;
+}

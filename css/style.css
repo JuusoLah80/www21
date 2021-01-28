@@ -1,23 +1,41 @@
 h1 {
     color: darkgreen;
     background-color: darkkhaki;
-    align-items: stretch;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    font-size: 5em;
 }
 .middle {
     display: flex;
     align-items: stretch;
 }
+content {
+    background-color: rgb(255, 105, 79);
+    min-height: 700px;
+    margin: auto;
+    max-width: 80%;
+}
 menu {
     background-color: darkgoldenrod;
-    min-height: 400px;
+    min-height: 700px;
+    margin: auto;
 }
-menu > li {
+menu > ul {
     list-style: none;
     padding: 0%;
     text-align: left;
 }
-content {
-    background-color: rgb(255, 229, 164);
-    min-height: 400px;
-    max-width: 100%;
+footer {
+    background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
